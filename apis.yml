@@ -1,22 +1,75 @@
 aid: astro-mechanica
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/astro-mechanica.png
 name: Astro Mechanica
-description: Astro Mechanica is a company surfaced as a portfolio company of a16z and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Astro Mechanica is a San Francisco aerospace company, founded in 2021 by Ian
+  Brooke, reinventing supersonic flight for a new jet age. Its flagship Duality
+  electric combined-cycle engine is engineered to stay efficient from takeoff
+  through Mach 3+ by reconfiguring between turbofan, turbojet, and ramjet modes
+  using a hybrid turboelectric architecture. The company designs engines,
+  airframes, and flight systems in-house, has been selected to develop an engine
+  for the U.S. Air Force Collaborative Combat Aircraft (CCA) program, and is
+  backed by a16z, Lowercarbon Capital, and Y Combinator. It was added to the API
+  Evangelist network as an a16z portfolio company. As an aerospace hardware
+  manufacturer, Astro Mechanica publishes no public developer API, SDK, or
+  developer portal; this profile captures the company's public web and identity
+  surface only.
 url: https://raw.githubusercontent.com/api-evangelist/astro-mechanica/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - a16z
+- Lowercarbon Capital
+- Y Combinator
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-industry: aerospace
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Aerospace
+- Aviation
+- Jet Engines
+- Supersonic
+- Propulsion
+- Hardware
+- Defense
 apis: []
+common:
+- type: DomainSecurity
+  url: security/astro-mechanica-domain-security.yml
+- type: Website
+  url: https://www.astromecha.co/
+- type: Blog
+  name: News
+  url: https://www.astromecha.co/news
+- type: Support
+  name: Contact
+  url: https://www.astromecha.co/contact
+- type: LinkedIn
+  url: https://www.linkedin.com/company/astro-mechanica/
+- type: Twitter
+  url: https://twitter.com/astromechanica
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
